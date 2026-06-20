@@ -1,0 +1,34 @@
+# Optional EOD Discord channels (one Cmd+K query per line)
+#
+# Discord is skipped by default. Use this file only when the user explicitly
+# asks the eod skill to include Discord context.
+#
+# During an explicit Discord pass, the eod skill can scan:
+#
+#   Pass 1: Discord Inbox (cross-server @-mentions to you)
+#   Pass 2: Server search `from:<you> after:<today>` (your posts)
+#   Pass 3: This file - channels to read in full regardless of mentions or your own messages
+#
+# Pass 3 exists for channels where signal happens WITHOUT @-mentions and
+# WITHOUT you posting - typically bot-driven channels like #alerts (Sentry
+# release errors), #deployments (CI status), or #github (PR notifications
+# routed without per-person tagging).
+#
+# DO NOT list every channel you're in. Pass 1 and Pass 2 already cover any
+# channel where you participated. Pass 3 is for the long tail of bot channels.
+#
+# Format: <channel> <server> - exactly what you'd type into Discord's Cmd+K
+# quick-switcher. Comments (#-prefixed) and blank lines are ignored.
+#
+# Recommended scan set for an engineering EOD:
+#   alerts <server>        - Sentry / release-error notifications
+#   deployments <server>   - CI deploy status, release announcements
+#   github <server>        - GitHub webhook events (if your team routes them here)
+#
+# Example:
+# alerts engineering
+# deployments engineering
+# github engineering
+#
+# Leaving this file empty is valid. Add lines only when you explicitly request
+# Discord context and notice the EOD missing context that lived in a bot channel.

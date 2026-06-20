@@ -1,0 +1,10 @@
+interface:
+  display_name: "EOD"
+  short_description: "Write an AI-agent-based end-of-day report"
+  icon_small: "./assets/eod-small.svg"
+  icon_large: "./assets/eod.svg"
+  brand_color: "#F97316"
+  default_prompt: "Use $eod to write my end-of-day report from today's agent session history, GitHub, Gmail, Calendar, memory, and local git activity."
+
+policy:
+  allow_implicit_invocation: true

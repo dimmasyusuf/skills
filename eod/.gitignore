@@ -1,0 +1,3 @@
+# Per-user runtime config — each user has their own Discord channel set.
+# The committed template (discord-channels.txt.example) shows the format.
+config/discord-channels.txt

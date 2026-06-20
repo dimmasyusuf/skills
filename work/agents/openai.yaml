@@ -1,0 +1,14 @@
+name: "work"
+description: "A highly sophisticated issue orchestration engine that creates local worktrees, fetches context from GitHub, and enforces a Zero-Tolerance Production Gauntlet with multi-agent dynamic delegation."
+author: "Example Maintainer"
+version: "1.0.0"
+capabilities:
+  - "github-api"
+  - "local-git"
+  - "multi-agent-delegation"
+  - "sqlite-telemetry"
+tools:
+  - name: "bash"
+    description: "Required to execute the workflow orchestration scripts (work-start, work-verify, etc.)."
+  - name: "sqlite3"
+    description: "Required for the telemetry ledger to track intercepted bugs."

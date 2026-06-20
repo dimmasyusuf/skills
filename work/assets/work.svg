@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Work skill icon">
+  <rect width="400" height="400" rx="72" fill="#2563EB"/>
+  <path d="M118 122h164c19 0 34 15 34 34v106c0 19-15 34-34 34H118c-19 0-34-15-34-34V156c0-19 15-34 34-34Z" fill="#EFF6FF"/>
+  <path d="M154 122v-18c0-20 16-36 36-36h20c20 0 36 16 36 36v18h-28v-18c0-5-3-8-8-8h-20c-5 0-8 3-8 8v18h-28Z" fill="#BFDBFE"/>
+  <path d="M84 188h232v38H84z" fill="#DBEAFE"/>
+  <path d="M126 254h86" stroke="#1D4ED8" stroke-width="18" stroke-linecap="round"/>
+  <path d="m226 244 24 24 52-58" fill="none" stroke="#16A34A" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

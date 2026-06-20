@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="EOD skill icon">
+  <rect width="128" height="128" rx="24" fill="#F97316"/>
+  <circle cx="64" cy="52" r="25" fill="#FED7AA"/>
+  <path d="M23 78h82v17c0 6-5 11-11 11H34c-6 0-11-5-11-11V78Z" fill="#FFF7ED"/>
+  <path d="M33 78c9-11 18-17 29-17 12 0 17 9 28 9 6 0 11-3 17-9v17H33Z" fill="#FB923C"/>
+  <path d="M38 92h52" stroke="#C2410C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M38 102h32" stroke="#FDBA74" stroke-width="6" stroke-linecap="round"/>
+  <path d="M33 38h11M84 38h11M64 19v11" stroke="#FFF7ED" stroke-width="6" stroke-linecap="round"/>
+</svg>
